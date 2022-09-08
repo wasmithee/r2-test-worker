@@ -1,0 +1,11 @@
+name = "r2-test-worker"
+main = "src/index.js"
+compatibility_date = "2022-09-08"
+
+account_id = "a8504cbbaac4bbc139151414bd1ee748"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'demo-bucket'
+preview_bucket_name =  "preview-demo-bucket"

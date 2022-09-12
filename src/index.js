@@ -21,7 +21,7 @@ function authorizeRequest(request, env, key) {
     case "DELETE":
       return hasValidHeader(request, env);
     case "GET":
-      return ALLOW_LIST.includes(key);
+      // return ALLOW_LIST.includes(key);
     default:
       return false;
   }

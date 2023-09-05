@@ -2,7 +2,8 @@
   "name": "r2-test-worker",
   "version": "0.0.0",
   "devDependencies": {
-    "wrangler": "2.0.29"
+    "wrangler": "2.20.1"
+
   },
   "private": true,
   "scripts": {
